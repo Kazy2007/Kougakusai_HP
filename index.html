@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+
+<head>
+    <!--
+    メモ
+    最初の画像ながいかも
+    ロゴの位置少し高い
+    ロゴは画像にする
+    webp変換 
+    -->
+
+    <!-- キャッシュを残さない -->
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+
+    <meta charset="UTF-8">
+    <title>高輪文化祭「Rise」</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="tak.css">
+    <link rel="icon" href="./imgs/icon.ico">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&family=Rubik+80s+Fade&family=Train+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playwrite+CO:wght@100..400&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+    </style>
+    
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <a class="Gotop" href="#">TOP
+        <span class="arrow1"></span>
+        <span class="arrow2"></span>
+    </a>
+    <div id="navArea">
+        <nav id="menu">
+            <div class="inner" id="arere">
+                <ul>
+                    <li><a href="#">高学祭Rise</a></li>
+                    <li><a href="#News">News</a></li>
+                    <li><a href="#Shop">出店情報</a></li>
+                    <li><a href="#TS">タイムテーブル</a></li>
+                    <li><a href="#Prohibited-matter">禁止事項</a></li>
+                    <li><a href="#Access">アクセス</a></li>
+                    <li><a href="https://www.takanawa.ed.jp/">高輪学園ホームページ</a></li>
+                </ul>
+            </div>
+
+            
+        </nav>
+        <div id="mask"></div>
+    </div>
+    <header class="header">
+        <div class="header-logo">
+            <a href="./index.html"><h1 class="header-logo-img">高学祭
+                
+            </h1></a>
+        </div>
+        <div class ="header-humberger">
+            <button class="humberger">
+                <span class="hum"></span>
+                <spam class="hum"></spam>
+                <spam class="hum"></spam>
+            </button>
+        </div>
+    </header>
+    <main class="main-inner">
+        <div class="main2-inner">
+            <img src="imgs/Logo.png" class="LogoImg">
+            <div class="MLogo">
+                <h1 class="Mlogo-tex">
+                    77th Kougakusai
+                </h1>
+                <h1 class="mobile-date">
+                    9/28<br>9/29
+                </h1>
+                <img src="imgs/LogoF.png" class="LogoFImg">
+            </div>
+            <img src="imgs/BGimg.png" class="img2">
+
+            <a style="display: none;" href="https://www.takanawa.ed.jp/">
+                <imgsrc="./imgs/takanawa_logo.svg" class="img3">
+            </a>
+        </div>
+        <div class="about-rise">
+            <div class="about-rise-1"></div>
+            <h1 class="header-logo-img"><a style="color: #ffffff00;"　href="./index.html">高学祭</a>
+                
+            </h1>
+            <img src="imgs/KeyImg.png" class="about-rise-img">
+            <h1 class="about-rise-text">
+                <span class="span1" >第77回高学祭</span></br>
+                <span class="span2">「Rise」</span><br>
+                <span class="span3">
+                    <br>今年のテーマ「Rise」には、<br>生徒・来場者のみんなに<br>高学祭を盛り上げてほしい、<br>興奮するような高学祭に<br>してほしい、という意味が<br>込められています
+                </span>
+                
+            </h1>
+        </div>
+        <div class="News" id="News">
+            <h1 class="News-Head-text">News</h1>
+            <div class="News-List">
+                <!--以下コピペでニュース作成可能-->
+                <a class="News-Link" href=""><!--ニュースのhtmlの場所-->
+                    <nav class="News-Title">
+                        <h1 class="Date">2024/09/09</h1><!--ニュースの日にち-->
+                        <h1 class="News-Title-Min"><a href="news1.html">ホームページ公開しました！</a></h1><!--ニュースのタイトル-->
+                    </nav>
+                </a>
+                <!--ここまで！！-->
+            </div>
+        </div>
+        <div class="Shop-Info" id="Shop">
+            <div class="SurfBoard">
+                <h1 class="Shop-Info-Text">出展情報</h1>
+            </div>
+            <div class="Comming">
+                <h1 class="Comming-Text">Comming Soon...</h1>
+            </div>
+        </div>
+        <div class="Time-Schedule" id="TS">
+            <div class="TS-main-txt">
+                <h1 class="TS-txt">Time <wbr>Table</h1>
+            </div>
+            <div class="TS-img">
+                <dialog id="modal">
+                    <button id="close">閉じる</button>
+                    <img src="imgs/1000009786.jpg" width="60%" height="auto">
+                </dialog>
+                <button id="open">開く</button>
+                <script>
+                    const modal = document.querySelector("dialog");
+                    const openButton = document.getElementById("open");
+                    const closeButton = document.getElementById("close");
+
+                    openButton.addEventListener("click",
+                    function(){
+                        modal.showModal();
+                    })
+                    closeButton.addEventListener("click",
+                    function(){
+                        modal.close();
+                    })
+                </script>
+            </div>
+        </div>
+        <div class="Prohibited-matter" id="Prohibited-matter">
+            <h1 class="PM-Text">
+                禁止事項
+            </h1>
+            <div class="PM-List">
+                <h1 class="PM-List-Text">
+                    <li class="List-PM">敷地内での喫煙</li>
+                    <li class="List-PM">土足での校舎、体育館への立ち入り</li>
+                    <li class="List-PM">侵入禁止区域への立ち入り</li>
+                    <li class="List-PM">スパイク、ハイヒールでのグラウンドへの立ち入り</li>
+                    <li class="List-PM">危険、迷惑行為</li>
+                    <li class="List-PM">フタのできない飲料及びグラウンドで購入した飲食物の校舎内持ち込み</li>
+                </h1>
+            </div>
+        </div>
+        </div>
+        <div class="Access" id="Access">
+            <h1 class="Access-Text">
+                アクセス
+            </h1>
+            <nav class="Access-Text-Info">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3242.570475693832!2d139.736062!3d35.638314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bab6a7340eb%3A0x20cb2bba3286a801!2z6auY6Lyq5Lit5a2m5qCh44O76auY562J5a2m5qCh!5e0!3m2!1sja!2sjp!4v1719389613689!5m2!1sja!2sjp"
+                    width="1000" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" class="googlemap"></iframe>
+                    <nav class="Access-train">
+                        <h1>
+                            <span class="material-symbols-outlined">
+                                train
+                                </span>
+                                都営地下鉄浅草線、京浜急行線「泉岳寺駅」A2出口から徒歩3分<br>
+                                都営地下鉄三田線、東京メトロ南北線「白金高輪駅」出口1から徒歩5分<br>
+                                JR山手線、京浜東北線「高輪ゲートウェイ駅」出口から徒歩6分<br>
+                        </h1>
+
+                    </nav>
+                </nav>
+            <nav class="Access-img">
+                <img src="./imgs/route-map.jpg" class="Access-img-png">
+                <h1></h1>
+            </nav>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content2">
+            <a href="./index.html">
+                <img class="footer-link-img" src="./imgs/LogoF.png">
+            </a>
+            <div class="footer-link2">
+                <h2 class="footer-link-title">Link</h2>
+                <ul class="footer-link-ul">
+                    <li><a href="index.html#">TOP</a></li>
+                    <li><a href="index.html#News">News</a></li>
+                    <li><a href="index.html#Shop">Shop</a></li>
+                </ul>
+            </div>
+            <div class="footer-link-title">
+                <h2 class="footer-link-title" style="color: transparent;">  aaaa   </h2>
+                <ul class="footer-link-ul">
+                    <li><a href="https://www.instagram.com/kougakusai.official?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">Instagram</a></li>
+                    <li><a href="https://www.takanawa.ed.jp/">OfficialPage</a></li>
+                    <li><a href="https://www.youtube.com/channel/UCryy53h0aoILSmGqcn73cog">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
