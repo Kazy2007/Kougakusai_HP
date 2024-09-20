@@ -1137,7 +1137,44 @@ footer {
     font-weight: 300;
 }
 
-.shop-all{
-    height: auto;
+.shop-C1{
+    height: 500px;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr;
+}
+
+.C1-Name{
+    text-align: left;
+}
+
+.C1-tx{
+    font-size: clamp(16px,6vw,32px);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
+}
+
+.shop-C2{
+    height: 1300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr;
+}
+
+.C2-Name{
+    text-align: left;
+}
+
+.C2-tx{
+    font-size: clamp(16px,6vw,32px);
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
 }
