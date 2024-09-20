@@ -60,7 +60,7 @@ html {
 header {
     top: 0px;
     height: 100px;
-    background-image: linear-gradient( 135deg, #FCCF31 10%, #e96e31 100%);
+    background-image: linear-gradient( 135deg, #e77b15 10%, #d6610d 100%);
     display: flex;
     z-index: 110;
 }
