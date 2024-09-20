@@ -551,9 +551,29 @@ margin-left: 35%;
     margin: 0;
     font-weight: 800;
 }
-
+a.btn-01{
+    display: block;
+    text-align: center;
+    width:25%;
+    margin: auto;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border: 2px solid #000000;
+    color: #000000;
+    transition: 0.5s;
+    word-break: keep-all;
+}
+@media screen and (width<=800px){
+    a.btn-01{
+        width: 50%;
+    }
+}
+a.btn-01:hover{
+    color: #fff;
+    background-color: #000000;
+}
 .Time-Schedule{
-    height: 1000px;
+    height: 1741px;
     background: linear-gradient(to bottom right, #FF9C00, #ffda07);
     display: block;
     text-align: center;
@@ -571,11 +591,72 @@ margin-left: 35%;
     word-break: keep-all;
 }
 .TS-img{
-    margin-left: 20%;
-    margin-right: 20%;
-    text-align: center;
-    display: flex;
+    height: 1500px;
+    display: grid;
+    width: 100%;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 20px;
+}
+
+@media screen and (width<=500px){
+    .TS-img{
+        height: 1500px;
+        display: block;
+        width: 100%;
+    }
+
+    .sya{
+        height: 375px;
+        width: 100%;
+    }
+
+    .sya2{
+        height: 375px;
+        width: 100%;
+    }
+
+    .sya3{
+        height: 375px;
+        width: 100%;
+    }
+
+    .sya4{
+        height: 375px;
+        width: 100%;
+    }
+
+    #imgo{
+        width: 48%;
+        height: auto;
+    }
+}
+
+@media screen and (500px<width<=850px){
+    #imgo{
+        width: 70%;
+        height: auto;
+    }
+}
+
+.sya{
     height: auto;
+    width: auto;
+}
+
+.sya2{
+    height: auto;
+    width: auto;
+}
+
+.sya3{
+    height: auto;
+    width: auto;
+}
+
+.sya4{
+    height: auto;
+    width: auto;
 }
 
 .Mlogo-tex {
@@ -591,13 +672,7 @@ margin-left: 35%;
     font-family: "Playwrite CO", cursive;
     font-weight: bolder;
 }
-#modal{
-    text-align: center;
-    background-color: #000000;
-    margin-top:  5%;
-    margin-left: 20%;
-    margin-right: 20%;
-}
+
 .MLogo {
     width: 80svw;
     position: relative;
