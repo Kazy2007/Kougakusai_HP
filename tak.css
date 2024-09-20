@@ -64,7 +64,6 @@ header {
     display: flex;
     z-index: 110;
 }
-
 header-404 {
     top: 0px;
     height: 100px;
@@ -75,7 +74,7 @@ header-404 {
 
 main {
     height: auto;
-    background-color: coral;
+    background-color: #FF9C00;
     /* padding-top: 25px; */
 }
 
@@ -129,6 +128,7 @@ main {
     background-color: #e4e4e4;
 
 }
+
 
 .header-inner {
     height: 100px;
@@ -1130,4 +1130,14 @@ footer {
 
         margin-left: 5svw;
     }
+}
+
+#intro-shop{
+    font-size: clamp(64px,10vw,80px);
+    font-weight: 300;
+}
+
+.shop-all{
+    height: auto;
+    width: 100%;
 }
