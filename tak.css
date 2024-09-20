@@ -529,34 +529,34 @@ margin-left: 35%;
 .Shop-Info {
     background: linear-gradient(to bottom left, #ffda07, #FF9C00);
     height: 800px;
+    text-align: center;
 }
 
 .SurfBoard {
     top: 0;
     left: 10px;
-    position: relative;
     display: block;
-    background-image: url(./imgs/SurfBG.jpg);
     width: 45%;
     height: 150px;
-    border-radius: 30% 70% 70% 30%/ 25% 50% 50% 25%;
-    transform: rotate(-15deg);
+    margin-bottom: 250px;
 }
 
 .Shop-Info-Text {
-    color: white;
+    color: black;
     position: absolute;
     width: 100%;
     /* height: 200px; */
     text-align: center;
     font-size: 112.5px;
     margin: 0;
-    font-weight: 800;
+    font-family: "Train One", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 a.btn-01{
     display: block;
     text-align: center;
-    width:25%;
+    width:35%;
     margin: auto;
     padding: 1rem 4rem;
     font-weight: bold;
@@ -564,7 +564,7 @@ a.btn-01{
     color: #000000;
     transition: 0.5s;
     word-break: keep-all;
-    font-size: 18px;
+    font-size: 22px;
 }
 @media screen and (width<=800px){
     a.btn-01{
@@ -1145,11 +1145,16 @@ footer {
     grid-template-rows: 1fr 4fr;
 }
 
+.Shop-tex{
+    text-align: center;
+}
+
 .C1-Name{
     text-align: left;
 }
 
 .C1-1{
+    padding-top: 5%;
     height: 400px;
     width: 100%;
     text-align: center;
@@ -1159,6 +1164,7 @@ footer {
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 .C1-tx{
     font-size: clamp(14px,5vw,30px);
@@ -1237,4 +1243,9 @@ footer {
     font-size: clamp(64px 10vw 80px);
     height: auto;
     padding-top: 100px;
+}
+
+.shopnav{
+    width: 75%;
+    text-align: center;
 }
