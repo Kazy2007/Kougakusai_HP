@@ -562,10 +562,12 @@ a.btn-01{
     color: #000000;
     transition: 0.5s;
     word-break: keep-all;
+    font-size: 18px;
 }
 @media screen and (width<=800px){
     a.btn-01{
         width: 50%;
+        font-size: 14px;
     }
 }
 a.btn-01:hover{
