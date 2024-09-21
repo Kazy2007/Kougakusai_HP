@@ -1160,6 +1160,13 @@ footer {
         display: block;
         text-align: center;
     }
+
+    #C3{
+        height: 2850px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
 }
 
 .Shop-tex{
@@ -1333,6 +1340,13 @@ footer {
 }
 
 .C3-7{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.C3-8{
     height: 400px;
     width: 100%;
     text-align: center;
