@@ -1131,6 +1131,10 @@ footer {
     }
 }
 
+.newsbacktopbutton:hover{
+    cursor: pointer;
+}
+
 #intro-shop{
     font-size: clamp(64px,10vw,80px);
     font-weight: 300;
