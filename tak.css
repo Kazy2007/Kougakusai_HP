@@ -60,7 +60,7 @@ html {
 header {
     top: 0px;
     height: 100px;
-    background-image: linear-gradient( 135deg, #e77b15 10%, #d6610d 100%);
+    background: linear-gradient(to right, #bbe6d3,#ff9c00);
     display: flex;
     z-index: 110;
 }
@@ -74,7 +74,7 @@ header-404 {
 
 main {
     height: auto;
-    background-color: #FF9C00;
+    background: linear-gradient(to bottom right, #FF9C00, #ffda07);
     /* padding-top: 25px; */
 }
 
@@ -271,10 +271,10 @@ main {
 }
 
 .header-logo {
-
     width: 200px;
-    height: 100px;
+    height: 78px;
     margin-right: auto;
+    text-align: center;
 }
 
 .header-logo-img {
@@ -528,7 +528,6 @@ margin-left: 35%;
 
 .Shop-Info {
     background: linear-gradient(to bottom left, #ffda07, #FF9C00);
-    height: 800px;
     text-align: center;
 }
 
@@ -1135,6 +1134,7 @@ footer {
 #intro-shop{
     font-size: clamp(64px,10vw,80px);
     font-weight: 300;
+    font-family: "aaa",sans-serif;
 }
 
 .shop-C1{
@@ -1143,6 +1143,23 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 4fr;
+    text-align: center;
+}
+
+@media screen and (width<=800px){
+    .shop-C1{
+        height: 850px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    #C2{
+        height: 2450px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
 }
 
 .Shop-tex{
@@ -1156,7 +1173,7 @@ footer {
 .C1-1{
     padding-top: 5%;
     height: 400px;
-    width: 100%;
+    width: 100%; 
     text-align: center;
 }
 
@@ -1189,8 +1206,7 @@ footer {
 
 .C2-tx{
     font-size: clamp(14px,5vw,30px);
-    font-weight: 600;
-    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600; 
     padding-left: 20px;
     border-bottom: #000000 dashed 5px;
     width: 50%;
@@ -1200,36 +1216,42 @@ footer {
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .C2-2{
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .C2-3{
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .C2-4{
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .C2-5{
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .C2-6{
     height: 400px;
     width: 100%;
     text-align: center;
+    padding-top: 5%;
 }
 
 .Shop{
@@ -1245,3 +1267,25 @@ footer {
     padding-top: 100px;
 }
 
+#Shop-font{
+    font-weight: bold;
+    font-family: "M PLUS Rounded 1c",sans-serif;
+    font-style: normal;
+    font-size: clamp(20px,3vw,24px);
+}
+
+.shop-C3{
+    height: 1700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr 4fr;
+}
+
+.C3-Tx{
+    font-size: clamp(14px,5vw,30px);
+    font-weight: 600; 
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
+}
