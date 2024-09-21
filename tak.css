@@ -522,7 +522,7 @@ margin-left: 35%;
         display: block;
     }
     .News-Title-Min{
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -567,8 +567,8 @@ a.btn-01{
 }
 @media screen and (width<=800px){
     a.btn-01{
-        width: 50%;
-        font-size: 14px;
+        width: 55%;
+        font-size: 13px;
     }
 }
 a.btn-01:hover{
