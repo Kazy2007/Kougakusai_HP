@@ -1171,6 +1171,15 @@ footer {
         display: block;
         text-align: center;
     }
+
+    #K1{
+        height: 2850px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    
 }
 
 .Shop-tex{
@@ -1350,7 +1359,65 @@ footer {
     padding-top: 5%;
 }
 
-.C3-8{
+.shop-K1{
+    height: 1700px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr 4fr;
+}
+
+.K1-Tx{
+    font-size: clamp(14px,5vw,30px);
+    font-weight: 600; 
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
+}
+
+.K1-1{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K1-2{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K1-3{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K1-4{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K1-5{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K1-6{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K1-7{
     height: 400px;
     width: 100%;
     text-align: center;
