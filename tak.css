@@ -1151,7 +1151,7 @@ footer {
 }
 
 @media screen and (width<=800px){
-    .shop-C1{
+    #C1{
         height: 850px;
         width: 100%;
         display: block;
@@ -1179,7 +1179,12 @@ footer {
         text-align: center;
     }
 
-    
+    #K2{
+        height: 2850px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
 }
 
 .Shop-tex{
