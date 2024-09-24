@@ -1425,11 +1425,11 @@ footer {
 }
 
 .shop-K2{
-    height: 2150px;
+    height: 1700px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 4fr 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr 4fr;
 }
 
 .K2-Tx{
@@ -1483,20 +1483,6 @@ footer {
 }
 
 .K2-7{
-    height: 400px;
-    width: 100%;
-    text-align: center;
-    padding-top: 5%;
-}
-
-.K2-8{
-    height: 400px;
-    width: 100%;
-    text-align: center;
-    padding-top: 5%;
-}
-
-.K2-9{
     height: 400px;
     width: 100%;
     text-align: center;
