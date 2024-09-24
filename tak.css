@@ -1423,3 +1423,82 @@ footer {
     text-align: center;
     padding-top: 5%;
 }
+
+.shop-K2{
+    height: 2150px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr 4fr 4fr;
+}
+
+.K2-Tx{
+    font-size: clamp(14px,5vw,30px);
+    font-weight: 600; 
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
+}
+
+.K2-1{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-2{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-3{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-4{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-5{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-6{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-7{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-8{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.K2-9{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
