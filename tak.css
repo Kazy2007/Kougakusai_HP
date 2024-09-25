@@ -1185,6 +1185,21 @@ footer {
         display: block;
         text-align: center;
     }
+
+    #BSD{
+        height: 7600px;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .BSD-Name{
+    font-size: clamp(10px,4vw,20px);
+    font-weight: 600; 
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
+    }
 }
 
 .Shop-tex{
@@ -1488,6 +1503,154 @@ footer {
 }
 
 .K2-7{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD{
+    height: 4200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr 4fr;
+}
+
+.BSD-Name{
+    font-size: clamp(14px,5vw,24px);
+    font-weight: 600; 
+    padding-left: 20px;
+    border-bottom: #000000 dashed 5px;
+    width: 50%;
+}
+.BSD-1{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-2{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-3{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-4{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-5{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-6{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-7{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-8{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-9{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-10{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-11{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-12{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-13{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-14{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-15{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-16{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-17{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-18{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.BSD-19{
     height: 400px;
     width: 100%;
     text-align: center;
