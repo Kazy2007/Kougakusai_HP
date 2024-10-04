@@ -1187,7 +1187,7 @@ footer {
     }
 
     #BSD{
-        height: 7600px;
+        height: 15600px;
         width: 100%;
         display: block;
         text-align: center;
@@ -1510,7 +1510,7 @@ footer {
 }
 
 .BSD{
-    height: 4200px;
+    height: 4650px;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1656,3 +1656,11 @@ footer {
     text-align: center;
     padding-top: 5%;
 }
+
+.BSD-20{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+}
+
